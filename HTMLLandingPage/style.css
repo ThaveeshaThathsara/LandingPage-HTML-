@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: Poppins;
+    font-size: 18px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    overflow: hidden;
+  
+    
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 50px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.about{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+nav{
+    
+    background: #333;
+  margin-top: 10px;
+    padding: 10px;
+    text-align: center;  
+    opacity: 0.8    ;
+    border-radius: 20px;
+}
+
+header{
+    width: 1140px;
+    max-width: 80%;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    position: relative;
+}
+.navelement{
+    
+    margin: 0 10px;
+   
+   
+}
+
+.carsoul{
+    width: 100vw;
+    height: 100vh;
+   overflow: hidden;
+   margin-top: -50px;
+
+   
+}
+
+.carsoul .listitem .item{
+    position: absolute;
+    
+}
+
+.carsoul .listitem .item img{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    /* opacity: 0.1; */
+
+}
+
+.carsoul .listitem .item .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    z-index: 100;
+    
+}
+
+/* .carsoul .listitem .item .content .buttons {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    padding: 10px;
+} */
+.spantext{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: red;
+
+}
+.btn1{
+    background-color: #1e1d1d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.btn2{
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* thumbnail */
+.thumbnail{
+  position:absolute;
+  bottom: 50px;
+  left: 45%;
+  width: max-content;
+  z-index: 100;
+  display: flex;
+  gap: 20px ;
+}
+
+.thumbnail .thumb{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border: 2px solid #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* .content{
+    background-color: #1e1d1d;
+    padding: 10px;
+    opacity: 0.1;
+} */
+
+.thumbnail .thumb img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.topic{
+    font-size: 350%;
+    color: rgb(255, 77, 0);
+    font-weight: bold;
+}
+.buttons{
+    
+    margin-top: 20px;
+}
+.title{
+    font-size: 200%;
+    color: #fff;
+    margin-top: 20px;
+}
+
+
+
